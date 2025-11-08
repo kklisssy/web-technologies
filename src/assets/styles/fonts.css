@@ -23,7 +23,7 @@
 }
 
 @font-face {
-    font-family: "Inter";
+    font-family: "Inter Italic";
     src: local('Inter'), local('Inter-Bold-Italic'), local('Inter Bold Italic'),
          url("/static/fonts/Inter-BoldItalic.woff") format("truetype"),
          url("/static/fonts/Inter-BoldItalic.woff") format("woff");
@@ -31,7 +31,7 @@
 }
 
 @font-face {
-    font-family: "Inter";
+    font-family: "Inter Italic";
     src: local('Inter'), local('Inter-Medium-Italic'), local('Inter Medium Italic'),
          url("/static/fonts/Inter-MediumItalic.woff") format("truetype"),
          url("/static/fonts/Inter-MediumItalic.woff") format("woff");
@@ -39,7 +39,7 @@
 }
 
 @font-face {
-    font-family: "Inter";
+    font-family: "Inter Italic";
     src: local('Inter'), local('Inter-Italic'), local('Inter Italic'),
          url("/static/fonts/Inter-Italic.woff") format("truetype"),
          url("/static/fonts/Inter-Italic.woff") format("woff");
@@ -71,7 +71,7 @@
 }
 
 @font-face {
-    font-family: "Inter";
+    font-family: "Inter Italic";
     src: local('Inter'), local('Inter-Extra-Bold-Italic'), local('Inter Extra Bold Italic'),
          url("/static/fonts/Inter-ExtraBoldItalic.woff") format("truetype"),
          url("/static/fonts/Inter-ExtraBoldItalic.woff") format("woff");
@@ -79,7 +79,7 @@
 }
 
 @font-face {
-    font-family: "Inter";
+    font-family: "Inter Italic";
     src: local('Inter'), local('Inter-Light-Italic'), local('Inter Light Italic'),
          url("/static/fonts/Inter-LightItalic.woff") format("truetype"),
          url("/static/fonts/Inter-LightItalic.woff") format("woff");
@@ -87,7 +87,7 @@
 }
 
 @font-face {
-    font-family: "Inter";
+    font-family: "Inter Italic";
     src: local('Inter'), local('Inter-Thin-Italic'), local('Inter Thin Italic'),
          url("/static/fonts/Inter-ThinItalic.woff") format("truetype"),
          url("/static/fonts/Inter-ThinItalic.woff") format("woff");
