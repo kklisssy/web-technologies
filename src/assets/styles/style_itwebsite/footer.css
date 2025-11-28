@@ -8,9 +8,8 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    justify-content: center;
+    margin: 0 auto
 }
 
 .footer h2 {
@@ -28,7 +27,7 @@
     margin: 10px 0 10px 0;
 }
 
-.footer-row{
+.footer-row {
     display: flex;
     gap: 150px;
 }
@@ -71,11 +70,12 @@
     .footer {
         height: 241px;
         width: 767px;
+        margin: 0;
     }
 
-    .footer-row{
+    .footer-row {
         gap: 10px;
-}
+    }
 
     .footer-item {
         width: 176px;
