@@ -14,7 +14,7 @@ body {
 
 .main-page {
     height: 900px;
-    background-image: url('/src/assets/img/img-itwebsite/main-img.png');
+    background-image: url('../../img/img-itwebsite/main-img.png');
     background-size: 60% auto;
     background-repeat: no-repeat;
     background-position: right center;
@@ -107,7 +107,7 @@ body {
     .main-page {
         height: 762px;
         width: 768px;
-        background-image: url('/src/assets/img/img-itwebsite/main-img2.png');
+        background-image: url('../../img/img-itwebsite/main-img2.png');
         background-size: auto auto;
     }
 
