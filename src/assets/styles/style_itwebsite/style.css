@@ -13,7 +13,7 @@ body {
 .main-page{
     height: 900px;
     color: #101828;
-    background-image: url('/src/assets/img/img-itwebsite/main-img.png');
+    background-image: url('../../img/img-itwebsite/main-img.png');
     background-size: 60% auto;
     background-repeat: no-repeat;
     background-position: right center;
