@@ -4,6 +4,13 @@
 @import "../utils.css";
 @import "../fonts.css";
 @import "./development.css";
+@import "./industries-page.scss";
+@import "./projects-page.scss";
+@import "./discussing-page.scss";
+@import "./stages-page.scss";
+@import "./team-page.scss";
+@import "./book-page.scss";
+@import "./faq-page.scss";
 
 body {
     background-color: #F2F4F7;
@@ -12,13 +19,13 @@ body {
     color: #101828;
     overflow-x: hidden;
     display: grid;
-    grid-template-rows: 0px 900px 518px 510px 882px 350px 810px 581px 588px 672px 300px;
+    grid-template-rows: 0px 900px 518px 550px 760px 350px 810px 581px 588px 610px 250px;
     grid-template-areas:
         "header"
         "main-page"
         "development-page"
+        "industries-page"
         "projects-page"
-        "projects"
         "discussing-page"
         "stages-page"
         "team-page"
@@ -27,6 +34,10 @@ body {
         "footer";
     margin: 0;
     min-width: 1440px;
+}
+
+.main-page {
+    grid-area: main-page;
 }
 
 .moving-images {
@@ -106,29 +117,31 @@ body {
     }
 }
 
-.main-page {
-    grid-area: main-page;
-}
 
 .main-text {
     position: absolute;
     top: 160px;
     margin: 0 108px;
     width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
-.main-text h2 {
+h2 {
     font-size: 36px;
     font-weight: 700;
+    margin: 0;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0;
 }
 
 .blue-text {
     color: #306FF5;
-}
-
-.main-text p {
-    font-size: 15px;
-    font-weight: 500;
 }
 
 .consultation-form {
@@ -189,8 +202,16 @@ body {
 
 @media (max-width: 768px) {
     body {
-        grid-template-rows: 0px 762px 518px 640px 698px 428px 1340px 884px 724px 778px 260px;
+        grid-template-rows: 0px 762px 518px 640px 698px 428px 1310px 884px 700px 778px 260px;
         width: 768px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 14px;
     }
 
     .moving-images {
@@ -258,7 +279,7 @@ body {
 
 @media (max-width: 425px) {
     body {
-        grid-template-rows: 0px 1267px 780px 620px 1033px 669px 1500px 646px 923px 712px 400px;
+        grid-template-rows: 0px 1267px 750px 620px 1080px 669px 1330px 646px 923px 712px 400px;
         width: 425px;
     }
 
@@ -285,36 +306,4 @@ body {
         top: 878px;
         left: 24px;
     }
-}
-
-.projects-page {
-    grid-area: projects-page;
-}
-
-.projects {
-    grid-area: projects;
-}
-
-.discussing-page {
-    grid-area: discussing-page;
-}
-
-.stages-page {
-    grid-area: stages-page;
-}
-
-.team-page {
-    grid-area: team-page;
-}
-
-.book-page {
-    grid-area: book-page;
-}
-
-.faq-page {
-    grid-area: faq-page;
-}
-
-.footer {
-    grid-area: footer;
 }

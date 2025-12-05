@@ -1,0 +1,41 @@
+.industries-page {
+  grid-area: industries-page;
+}
+.industries-page h2 {
+  margin: 80px 108px 0;
+}
+.industries-page .industries {
+  display: flex;
+  gap: 15px;
+  margin: 40px 108px;
+  font-size: 17px;
+}
+.industries-page .industries-list {
+  width: 391px;
+  height: 280px;
+}
+.industries-page .industries-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.industries-page .industries-list li {
+  height: 44px;
+  display: flex;
+  align-items: center;
+  size: 17px;
+  font-weight: 500;
+}
+@media (max-width: 768px) {
+  .industries-page h2 {
+    margin: 30px 40px;
+  }
+  .industries-page .industries {
+    width: 601px;
+    height: 457px;
+    margin: 40px 40px;
+  }
+}/*# sourceMappingURL=industries-page.css.map */

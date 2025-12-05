@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Практика 6</title>
+    <title>Практика 7</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/assets/styles/style_itwebsite/style.css">
@@ -53,7 +53,7 @@
             <div class="moving-image image-left"></div>
             <div class="moving-image image-right"></div>
         </div>
-        
+
         <div class="main-text">
             <h2>Development of <span class="blue-text">mobile applications</span> and <span class="blue-text">web
                     services</span> of any complexity</h2>
@@ -134,11 +134,12 @@
     </section>
 
 
-    <section class="projects-page">
-        <h2>Developed more than <span>100</span> projects in <span>15</span> industries</h2>
+    <section class="industries-page">
+        <h2>Developed more than <span class="blue-text">100</span> <br>projects in <span class="blue-text">15</span>
+            industries</h2>
 
         <div class="industries">
-            <div>
+            <div class="industries-list">
                 <ul>
                     <li>Social media</li>
                     <li>Fitness and sport</li>
@@ -147,7 +148,7 @@
                     <li>Game projects</li>
                 </ul>
             </div>
-            <div>
+            <div class="industries-list">
                 <ul>
                     <li>Education</li>
                     <li>Auto, transport</li>
@@ -156,7 +157,7 @@
                     <li>Marketplaces</li>
                 </ul>
             </div>
-            <div>
+            <div class="industries-list">
                 <ul>
                     <li>AR technology</li>
                     <li>TV series</li>
@@ -168,47 +169,55 @@
         </div>
     </section>
 
-    <section class="projects">
+    <section class="projects-page">
         <h2>Projects we are proud of</h2>
         <p>Our software development company is truly proud of the wonderful clients we have worked with. We enjoy a
             long-term partnership.</p>
-        <div class="projects">
-            <ul>
-                <li>I-teka</li>
-                <li>Dauletten</li>
-                <li>Guru Bosch</li>
-                <li>Santo</li>
-                <li>Home Credit Bank</li>
-                <li>BI Partners</li>
-                <li>Europharma</li>
-            </ul>
+        <div class="info-button">
+            <div class="projects-info">
+                <ul>
+                    <li>I-teka</li>
+                    <li>Dauletten</li>
+                    <li>Guru Bosch</li>
+                    <li>Santo</li>
+                    <li>Home Credit Bank</li>
+                    <li>BI Partners</li>
+                    <li>Europharma</li>
+                </ul>
+            </div>
             <button>View 100 more projects</button>
         </div>
 
-        <div class="project-I-teka">
-            <h2>I-teka</h2>
-            <p>The application is designed to search for drugs by availability in pharmacies in cities. During
-                quarantine, the application helped many people, which gives more value.</p>
+        <div class="I-teka-container">
+            <div class="project-I-teka">
+                <h2>I-teka</h2>
+                <p>The application is designed to search for drugs by availability in pharmacies in cities. During
+                    quarantine, the application helped many people, which gives more value.</p>
 
-            <p>Business analysis / iOS / Android / QA / UI/UX Design</p>
+                <p class="bigger-p">Business analysis / iOS / Android / QA / UI/UX Design</p>
 
-            <div class="info">
-                <ul>
-                    <li>Kazakhstan</li>
-                    <li>Medicine</li>
-                </ul>
-            </div>
+                <div class="info-I-teka">
+                    <ul>
+                        <li>Kazakhstan</li>
+                        <li>Medicine</li>
+                    </ul>
+                </div>
 
-            <div class="status">
-                <p>400%<br>User Growth</p>
-                <p>+200 000<br>Active Users</p>
-            </div>
+                <div class="status">
+                    <div class="growth">
+                        <h3>400%</h3>
+                        <p>Growth</p>
+                    </div>
+                    <div class="users">
+                        <h3>+200 000</h3>
+                        <p>Active Users</p>
+                    </div>
+                </div>
 
-            <div class="apps">
-                <ul>
-                    <li>App Store</li>
-                    <li>Google Play</li>
-                </ul>
+                <div class="apps">
+                    <img src="src/assets/img/img-itwebsite/app-store.png" alt="i-teka" title="i-teka">
+                    <img src="src/assets/img/img-itwebsite/google-play.png" alt="i-teka" title="i-teka">
+                </div>
             </div>
             <img src="src/assets/img/img-itwebsite/i-teka.png" alt="i-teka" title="i-teka">
         </div>
@@ -216,21 +225,25 @@
 
 
     <section class="discussing-page">
-        <div>
+        <div class="discussing-text">
             <h2>Let's discuss<br>Your project</h2>
-            <p>Let's figure out how to create an effective application,<br>
+            <p>Let's figure out how to create an effective application,<br class="hide">
                 its cost and terms of its development</p>
         </div>
 
         <div>
-            <form class="discuss-contacts">
-                <label for="phone">Best phone number</label><br>
-                <input type="tel" id="phone" placeholder="+7 (111) 111-11-11" required><br>
-
-                <label for="name">Full name</label><br>
-                <input type="text" id="name" placeholder="Иван Иванов" required><br>
-
-                <br><button type="submit">Discuss the project</button>
+            <form class="discussing-form">
+                <div class="discuss-field">
+                    <div class="field-info">
+                        <label for="phone">Best phone number</label><br>
+                        <input type="tel" id="phone" placeholder="+7 (111) 111-11-11" required><br>
+                    </div>
+                    <div class="field-info">
+                        <label for="name">Full name</label><br>
+                        <input type="text" id="name" placeholder="Иван Иванов" required><br>
+                    </div>
+                </div>
+                <button type="submit">Discuss the project</button>
             </form>
         </div>
     </section>
@@ -238,64 +251,89 @@
 
     <section class="stages-page">
         <h2>Application Development Stages</h2>
-        <div>
-            <h3><img src="src/assets/img/img-itwebsite/plan.png" alt="Analysis" title="Analysis">Analysis</h3>
-            <p>We write technical specifications for development, taking into account the business processes and
-                technologies of the customer and the needs of users.</p>
-        </div>
+        <div class="stages-list">
+            <div class="stages-column">
+                <div class="stages-element">
+                    <div class="element-heading">
+                        <img src="src/assets/img/img-itwebsite/plan.png" alt="Analysis" title="Analysis">
+                        <h3>Analysis</h3>
+                    </div>
+                    <p>We write technical specifications for development, taking into account the business processes and
+                        technologies of the customer and the needs of users.</p>
+                </div>
 
-        <div>
-            <h3><img src="src/assets/img/img-itwebsite/design.png" alt="Design" title="Design">Design</h3>
-            <p>We adapt the customer's corporate identity to the platform guidelines. We draw convenient and
-                understandable interfaces.</p>
-        </div>
+                <div class="stages-element">
+                    <div class="element-heading">
+                        <img src="src/assets/img/img-itwebsite/design.png" alt="Design" title="Design">
+                        <h3>Design</h3>
+                    </div>
+                    <p>We adapt the customer's corporate identity to the platform guidelines. We draw convenient and
+                        understandable interfaces.</p>
+                </div>
 
-        <div>
-            <h3><img src="src/assets/img/img-itwebsite/computer coding.png" alt="Development"
-                    title="Development">Development
-            </h3>
-            <p>We create an extensible architecture, write clean and stable code. We integrate with customer
-                technologies.</p>
-        </div>
+                <div class="stages-element">
+                    <div class="element-heading">
+                        <img src="src/assets/img/img-itwebsite/computer coding.png" alt="Development"
+                            title="Development">
+                        <h3>Development</h3>
+                    </div>
+                    <p>We create an extensible architecture, write clean and stable code. We integrate with customer
+                        technologies.</p>
+                </div>
+            </div>
 
-        <div>
-            <h3><img src="src/assets/img/img-itwebsite/copyright.png" alt="Testing" title="Testing">Testing</h3>
-            <p>We carry out functional testing and do bug fixes. We adapt the application to different phone
-                resolutions.</p>
-        </div>
+            <div class="stages-column">
+                <div class="stages-element">
+                    <div class="element-heading">
+                        <img src="src/assets/img/img-itwebsite/copyright.png" alt="Testing" title="Testing">
+                        <h3>Testing</h3>
+                    </div>
+                    <p>We carry out functional testing and do bug fixes. We adapt the application to different phone
+                        resolutions.</p>
+                </div>
 
-        <div>
-            <h3><img src="src/assets/img/img-itwebsite/hosting.png" alt="Launching" title="Launching">Launching</h3>
-            <p>We design the application page and publish it in the App Store and Google Play stores.</p>
-        </div>
+                <div class="stages-element">
+                    <div class="element-heading">
+                        <img src="src/assets/img/img-itwebsite/hosting.png" alt="Launching" title="Launching">
+                        <h3>Launching</h3>
+                    </div>
+                    <p>We design the application page and publish it in the App Store and Google Play stores.</p>
+                </div>
 
-        <div>
-            <h3><img src="src/assets/img/img-itwebsite/mobile setting.png" alt="Support" title="Support">Support</h3>
-            <p>We monitor the stability of the application, update it for new devices and versions of iOS and Android.
-            </p>
+                <div class="stages-element">
+                    <div class="element-heading">
+                        <img src="src/assets/img/img-itwebsite/mobile setting.png" alt="Support" title="Support">
+                        <h3>Support</h3>
+                    </div>
+                    <p>We monitor the stability of the application, update it for new devices and versions of iOS and
+                        Android.
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
 
 
     <section class="team-page">
-        <div>
+        <div class="team-text">
             <h2>Our team</h2>
             <p>Thousand is a full-cycle digital production company with its own product analysis,
                 design, web and mobile development.
             </p>
-            <div>
-                <h2>28</h2>
-                <p>team members</p>
+            <div class="team-info">
+                <div class="team-info-el">
+                    <h2>28</h2>
+                    <p>team members</p>
+                </div>
+                <div class="team-info-el">
+                    <h2>+100</h2>
+                    <p>projects</p>
+                </div>
+                <div class="team-info-el">
+                    <h2>7 years</h2>
+                    <p>in IT sphare</p>
+                </div>
             </div>
-            <div>
-                <h2>+100</h2>
-                <p>projects</p>
-            </div>
-            <div>
-                <h2>7 years</h2>
-                <p>in IT sphare</p>
-            </div>
-
             <p>All the necessary specialists - form a designer to a tester - are on our staff.
                 We hire the best specialists in the market. It's expensive but worth it</p>
         </div>
@@ -304,18 +342,23 @@
 
 
     <section class="book-page">
-        <h2>Get the book for free by leaving<br>your contacts</h2>
-        <div>
-            <form class="book-contacts">
-                <label for="phone">Phone number</label><br>
-                <input type="tel" id="phone" placeholder="+7 (111) 111-11-11" required><br>
-
-                <br><input type="text" placeholder="Your full name" required><br>
-
-                <br><label for="email">email</label><br>
-                <input type="email" id="email" placeholder="mail@mail.com" required><br>
-
-                <br><button type="submit">Send me ebook to my mail</button>
+        <div class="book-contacts">
+            <h2>Get the book for free by leaving<br class="hide"> your contacts</h2>
+            <form class="book-form">
+                <div class="book-form-contacts">
+                    <div class="form-contact">
+                        <label for="phone">Phone number</label><br>
+                        <input type="tel" id="phone" placeholder="+7 (111) 111-11-11" required><br>
+                    </div>
+                    <div class="form-contact">
+                        <input type="text" placeholder="Your full name" required><br>
+                    </div>
+                </div>
+                <div class="form-contact">
+                    <label for="email">email</label><br>
+                    <input type="email" id="email" placeholder="mail@mail.com" required><br>
+                </div>
+                <button type="submit">Send me ebook to my mail</button>
             </form>
         </div>
         <img src="src/assets/img/img-itwebsite/book.png" alt="book" title="book">
@@ -324,88 +367,93 @@
 
     <section class="faq-page">
         <h2>FAQ</h2>
-        <div class="first-column">
-            <div>
-                <details class="f">
-                    <summary>What is the cost of a mobile application?</summary>
-                    <p></p>
-                </details>
+        <div class="faq-columns">
+            <div class="faq-column">
+                <div>
+                    <details class="faq-element">
+                        <summary>What is the cost of a mobile application?</summary>
+                        <p></p>
+                    </details>
+                </div>
+                <div>
+                    <details class="faq-element">
+                        <summary>Do you provide a guarantee for the mobile application?</summary>
+                        <p></p>
+                    </details>
+                </div>
             </div>
-            <div>
-                <details>
-                    <summary>Do you provide a guarantee for the mobile application?</summary>
-                    <p></p>
-                </details>
-            </div>
-        </div>
-        <div class="second-column">
-            <div>
-                <details>
-                    <summary>How long will development take?</summary>
-                    <p>Development terms directly depend on the requirements for the mobile application, the
-                        characteristics
-                        of
-                        the company, as well as the wishes of the customer.</p>
-                    <p>Average development time from start to finished application:
-                        Medium projects up to <span>3 months</span>.
-                        Large projects about <span>4-6 months</span>.
-                        To get a more accurate estimate of the project completion time, it is necessary to determine the
-                        main
-                        task of the application, think over its logic and functionality.</p>
-                </details>
-            </div>
-            <div>
-                <details>
-                    <summary>I will not tell my idea, do you guarantee confidentiality?</summary>
-                    <p></p>
-                </details>
+            <div class="faq-column">
+                <div>
+                    <details class="faq-element">
+                        <summary>How long will development take?</summary>
+                        <p>Development terms directly depend on the requirements for the mobile application, the
+                            characteristics
+                            of
+                            the company, as well as the wishes of the customer.</p>
+                        <p>Average development time from start to finished application:
+                            Medium projects up to <span>3 months</span>.
+                            Large projects about <span>4-6 months</span>.
+                            To get a more accurate estimate of the project completion time, it is necessary to determine
+                            the
+                            main
+                            task of the application, think over its logic and functionality.</p>
+                    </details>
+                </div>
+                <div>
+                    <details class="faq-element">
+                        <summary>I will not tell my idea, do you guarantee confidentiality?</summary>
+                        <p></p>
+                    </details>
+                </div>
             </div>
         </div>
     </section>
 
 
     <footer class="footer">
-        <h2>IT WEBSITE</h2>
-        <div class="footer-content">
-            <div class="footer-row">
-                <div class="footer-item">
-                    <div class="head-footer-item">
-                        <img src="src/assets/img/img-itwebsite/phone-footer.png" alt="phone">
-                        <p>Contact nums</p>
+        <div class="footer-info">
+            <h2>IT WEBSITE</h2>
+            <div class="footer-content">
+                <div class="footer-row">
+                    <div class="footer-item">
+                        <div class="head-footer-item">
+                            <img src="src/assets/img/img-itwebsite/phone-footer.png" alt="phone">
+                            <p>Contact nums</p>
+                        </div>
+                        <p class="main-footer-item">+7 (778) 395 90 26</p>
                     </div>
-                    <p class="main-footer-item">+7 (778) 395 90 26</p>
+
+                    <div class="footer-item">
+                        <div class="head-footer-item">
+                            <img src="src/assets/img/img-itwebsite/mail-footer.png" alt="mail">
+                            <p>Post</p>
+                        </div>
+                        <p class="main-footer-item">mail@mail.com</p>
+                    </div>
                 </div>
 
-                <div class="footer-item">
-                    <div class="head-footer-item">
-                        <img src="src/assets/img/img-itwebsite/mail-footer.png" alt="mail">
-                        <p>Post</p>
+                <div class="footer-row">
+                    <div class="footer-item">
+                        <div class="head-footer-item">
+                            <img src="src/assets/img/img-itwebsite/address-footer.png" alt="address">
+                            <p>Adress</p>
+                        </div>
+                        <p class="main-footer-item">City city, steet st. 90</p>
                     </div>
-                    <p class="main-footer-item">mail@mail.com</p>
+
+                    <div class="footer-item">
+                        <div class="head-footer-item">
+                            <img src="src/assets/img/img-itwebsite/file-footer.png" alt="file">
+                            <p>Leave a request</p>
+                        </div>
+                        <p class="main-footer-item">Leave a request</p>
+                    </div>
                 </div>
             </div>
-
-            <div class="footer-row">
-                <div class="footer-item">
-                    <div class="head-footer-item">
-                        <img src="src/assets/img/img-itwebsite/address-footer.png" alt="address">
-                        <p>Adress</p>
-                    </div>
-                    <p class="main-footer-item">City city, steet st. 90</p>
-                </div>
-
-                <div class="footer-item">
-                    <div class="head-footer-item">
-                        <img src="src/assets/img/img-itwebsite/file-footer.png" alt="file">
-                        <p>Leave a request</p>
-                    </div>
-                    <p class="main-footer-item">Leave a request</p>
-                </div>
+            <div class="footer-title">
+                <img src="src/assets/img/img-itwebsite/spot.png" alt="spot">
+                <p>We work throughout world</p>
             </div>
-        </div>
-        <div class="footer-title">
-            <img src="src/assets/img/img-itwebsite/spot.png" alt="spot">
-            <p>We work throughout world</p>
         </div>
     </footer>
 

@@ -1,4 +1,9 @@
 .footer {
+    grid-area: footer;
+    background-color: #FFFFFF;
+}
+
+.footer-info {
     padding: 24px;
     height: 222px;
     width: 1224px;
@@ -9,7 +14,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 auto
+    margin: 0 auto;
+    gap: 24px;
 }
 
 .footer h2 {
@@ -36,6 +42,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 8px;
 }
 
 .head-footer-item {
@@ -67,7 +74,7 @@
 }
 
 @media (max-width: 768px) {
-    .footer {
+    .footer-info {
         height: 241px;
         width: 767px;
         margin: 0;
@@ -87,7 +94,7 @@
 }
 
 @media (max-width: 425px) {
-    .footer {
+    .footer-info {
         height: 350px;
         width: 425px;
     }

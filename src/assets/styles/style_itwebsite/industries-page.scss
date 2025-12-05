@@ -1,0 +1,49 @@
+.industries-page {
+    grid-area: industries-page;
+
+    h2 {
+        margin: 80px 108px 0;
+    }
+
+    .industries {
+        display: flex;
+        gap: 15px;
+        margin: 40px 108px;
+        font-size: 17px;
+    }
+
+    .industries-list {
+        width: 391px;
+        height: 280px;
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        li {
+            height: 44px;
+            display: flex;
+            align-items: center;
+            size: 17px;
+            font-weight: 500;
+        }
+    }
+
+    @media (max-width: 768px) {
+
+        h2 {
+            margin: 30px 40px;
+        }
+
+        .industries {
+            width: 601px;
+            height: 457px;
+            margin: 40px 40px;
+        }
+    }
+}

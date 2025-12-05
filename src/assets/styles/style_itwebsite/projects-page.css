@@ -1,0 +1,228 @@
+.projects-page {
+  grid-area: projects-page;
+}
+.projects-page h2 {
+  margin: 40px 108px 0;
+}
+.projects-page p {
+  margin: 24px 108px 0;
+  width: 600px;
+}
+.projects-page .info-button {
+  width: 1224px;
+  height: 58px;
+  display: flex;
+  gap: 160px;
+  align-items: center;
+  margin: 40px 108px 0;
+}
+.projects-page .info-button .projects-info {
+  width: 801px;
+}
+.projects-page .info-button .projects-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.projects-page .info-button .projects-info li {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 400;
+  color: #1D2939;
+  font-size: 17px;
+}
+.projects-page .info-button .projects-info li:hover {
+  font-weight: bold;
+  border-bottom: 2px solid #2D66EE;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+.projects-page .info-button button {
+  width: 207px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  background-color: #2D66EE;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 500;
+}
+.projects-page .I-teka-container {
+  display: flex;
+}
+.projects-page .I-teka-container img {
+  width: 600px;
+  height: 326px;
+}
+.projects-page .I-teka-container .project-I-teka {
+  margin: 24px 108px 0;
+  width: 600px;
+  height: 449px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.projects-page .I-teka-container .project-I-teka h2 {
+  margin: 0;
+}
+.projects-page .I-teka-container .project-I-teka p {
+  margin: 0;
+}
+.projects-page .I-teka-container .project-I-teka .bigger-p {
+  font-size: 17px;
+  color: #475467;
+}
+.projects-page .I-teka-container .project-I-teka .info-I-teka {
+  width: 239px;
+  height: 24px;
+}
+.projects-page .I-teka-container .project-I-teka .info-I-teka ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.projects-page .I-teka-container .project-I-teka .info-I-teka li {
+  display: flex;
+  align-items: center;
+}
+.projects-page .I-teka-container .project-I-teka .status {
+  width: 252px;
+  height: 59px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+.projects-page .I-teka-container .project-I-teka .status h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+.projects-page .I-teka-container .project-I-teka .status p {
+  color: #667085;
+  font-size: 13px;
+}
+.projects-page .I-teka-container .project-I-teka .status .growth {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 76px;
+}
+.projects-page .I-teka-container .project-I-teka .status .users {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 128px;
+}
+.projects-page .I-teka-container .project-I-teka .apps {
+  display: flex;
+  gap: 16px;
+  width: 300px;
+}
+.projects-page .I-teka-container .project-I-teka .apps img {
+  width: 148px;
+  height: 40px;
+  margin: 0;
+}
+@media (max-width: 768px) {
+  .projects-page h2 {
+    margin: 30px 40px;
+  }
+  .projects-page p {
+    margin-left: 40px;
+    width: 456px;
+  }
+  .projects-page .info-button {
+    width: 673px;
+    display: block;
+    margin-left: 40px;
+  }
+  .projects-page .info-button .projects-info {
+    width: 673px;
+  }
+  .projects-page .info-button .projects-info li {
+    font-size: 14px;
+  }
+  .projects-page .info-button button {
+    margin: 24px 490px 0;
+  }
+  .projects-page .I-teka-container img {
+    position: absolute;
+    width: 369px;
+    height: 225px;
+    margin: 165px 370px 0;
+  }
+  .projects-page .I-teka-container .project-I-teka {
+    margin: 0px 40px 0;
+    width: 459px;
+    height: 400px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .projects-page .I-teka-container .project-I-teka .bigger-p {
+    font-size: 14px;
+  }
+  .projects-page .I-teka-container .project-I-teka .info-I-teka {
+    width: 230px;
+  }
+  .projects-page .I-teka-container .project-I-teka .status {
+    width: 231px;
+  }
+  .projects-page .I-teka-container .project-I-teka .status h3 {
+    font-size: 20px;
+  }
+  .projects-page .I-teka-container .project-I-teka .status p {
+    font-size: 12px;
+  }
+  .projects-page .I-teka-container .project-I-teka .status .growth {
+    width: 71px;
+  }
+  .projects-page .I-teka-container .project-I-teka .status .users {
+    width: 107px;
+  }
+}
+@media (max-width: 768px) and (max-width: 425px) {
+  .projects-page h2 {
+    margin: 30px 16px;
+  }
+  .projects-page p {
+    margin-left: 16px;
+    width: 339px;
+  }
+  .projects-page .info-button {
+    width: 390px;
+    display: block;
+    margin-left: 16px;
+  }
+  .projects-page .info-button .projects-info {
+    width: 300px;
+  }
+  .projects-page .info-button button {
+    width: 258px;
+    margin: 730px 65px 0;
+  }
+  .projects-page .I-teka-container {
+    flex-direction: column-reverse;
+  }
+  .projects-page .I-teka-container img {
+    position: relative;
+    width: 393px;
+    height: 225px;
+    margin: 32px 16px 0;
+  }
+  .projects-page .I-teka-container .project-I-teka {
+    margin: 35px 16px 0;
+    width: 393px;
+  }
+  .projects-page .I-teka-container .project-I-teka p {
+    width: 393px;
+  }
+}/*# sourceMappingURL=projects-page.css.map */
