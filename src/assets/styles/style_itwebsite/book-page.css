@@ -3,6 +3,25 @@
   background-color: #2D66EE;
   color: #FFFFFF;
   display: flex;
+  position: relative;
+}
+.book-page::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../../img/img-itwebsite/dots-back.png");
+  opacity: 0.3;
+  mix-blend-mode: overlay;
+}
+.book-page svg {
+  position: absolute;
+  width: 1440px;
+  height: 258.13px;
+  margin: 165px 0;
+  opacity: 0.7;
 }
 .book-page .book-contacts {
   margin: 80px 108px;
@@ -12,6 +31,7 @@
   width: 600px;
 }
 .book-page .book-contacts .book-form {
+  z-index: 1;
   background-color: #FFFFFF;
   border-radius: 12px;
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.08), 0px 0px 24px rgba(0, 0, 0, 0.16);
@@ -85,11 +105,15 @@
   padding: 11px 24px;
 }
 .book-page img {
+  z-index: 1;
   width: 344px;
   height: 520px;
   margin: 46px 40px;
 }
 @media (max-width: 768px) {
+  .book-page svg {
+    opacity: 0;
+  }
   .book-page .book-contacts {
     margin: 76px 76px;
     width: 455px;

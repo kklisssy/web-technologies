@@ -46,6 +46,29 @@
 .stages-page .stages-list .stages-column .stages-element p {
   font-weight: 400;
 }
+.stages-page .stages-list .stages-column .analysis svg,
+.stages-page .stages-list .stages-column .design svg,
+.stages-page .stages-list .stages-column .development svg,
+.stages-page .stages-list .stages-column .testing svg,
+.stages-page .stages-list .stages-column .launching svg,
+.stages-page .stages-list .stages-column .support svg {
+  position: absolute;
+  margin-top: -24px;
+}
+.stages-page .stages-list .stages-column .analysis svg {
+  margin-left: 282px;
+}
+.stages-page .stages-list .stages-column .design svg,
+.stages-page .stages-list .stages-column .launching svg {
+  margin-left: 235px;
+}
+.stages-page .stages-list .stages-column .testing svg {
+  margin-left: 220px;
+}
+.stages-page .stages-list .stages-column .development svg,
+.stages-page .stages-list .stages-column .support svg {
+  margin-left: 230px;
+}
 @media (max-width: 768px) {
   .stages-page h2 {
     margin: 30px 40px;
@@ -77,6 +100,20 @@
     font-size: 14px;
     width: 504px;
   }
+  .stages-page .stages-list .stages-column .analysis svg {
+    margin-left: 550px;
+  }
+  .stages-page .stages-list .stages-column .design svg,
+  .stages-page .stages-list .stages-column .launching svg {
+    margin-left: 515px;
+  }
+  .stages-page .stages-list .stages-column .testing svg {
+    margin-left: 500px;
+  }
+  .stages-page .stages-list .stages-column .development svg,
+  .stages-page .stages-list .stages-column .support svg {
+    margin-left: 510px;
+  }
 }
 @media (max-width: 768px) and (max-width: 425px) {
   .stages-page h2 {
@@ -97,5 +134,19 @@
   }
   .stages-page .stages-list .stages-column .stages-element p {
     width: 266px;
+  }
+  .stages-page .stages-list .stages-column .analysis svg {
+    margin-left: 282px;
+  }
+  .stages-page .stages-list .stages-column .design svg,
+  .stages-page .stages-list .stages-column .launching svg {
+    margin-left: 235px;
+  }
+  .stages-page .stages-list .stages-column .testing svg {
+    margin-left: 220px;
+  }
+  .stages-page .stages-list .stages-column .development svg,
+  .stages-page .stages-list .stages-column .support svg {
+    margin-left: 230px;
   }
 }/*# sourceMappingURL=stages-page.css.map */

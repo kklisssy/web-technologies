@@ -50,9 +50,45 @@
                 p {
                     font-weight: 400;
                 }
-
             }
 
+            .analysis,
+            .design,
+            .development,
+            .testing,
+            .launching,
+            .support {
+                svg {
+                    position: absolute;
+                    margin-top: -24px
+                }
+            }
+
+            .analysis {
+                svg {
+                    margin-left: 282px;
+                }
+            }
+
+            .design,
+            .launching {
+                svg {
+                    margin-left: 235px;
+                }
+            }
+
+            .testing {
+                svg {
+                    margin-left: 220px;
+                }
+            }
+
+            .development,
+            .support {
+                svg {
+                    margin-left: 230px;
+                }
+            }
         }
     }
 
@@ -90,9 +126,33 @@
                         font-size: 14px;
                         width: 504px;
                     }
-
                 }
 
+                .analysis {
+                    svg {
+                        margin-left: 550px;
+                    }
+                }
+
+                .design,
+                .launching {
+                    svg {
+                        margin-left: 515px;
+                    }
+                }
+
+                .testing {
+                    svg {
+                        margin-left: 500px;
+                    }
+                }
+
+                .development,
+                .support {
+                    svg {
+                        margin-left: 510px;
+                    }
+                }
             }
         }
 
@@ -116,6 +176,32 @@
 
                         p {
                             width: 266px;
+                        }
+                    }
+
+                    .analysis {
+                        svg {
+                            margin-left: 282px;
+                        }
+                    }
+
+                    .design,
+                    .launching {
+                        svg {
+                            margin-left: 235px;
+                        }
+                    }
+
+                    .testing {
+                        svg {
+                            margin-left: 220px;
+                        }
+                    }
+
+                    .development,
+                    .support {
+                        svg {
+                            margin-left: 230px;
                         }
                     }
                 }
