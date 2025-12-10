@@ -1,16 +1,16 @@
-@import "./header.css";
-@import "./footer.css";
-@import "../global.css";
-@import "../utils.css";
-@import "../fonts.css";
-@import "./development.css";
-@import "./industries-page";
-@import "./projects-page";
-@import "./discussing-page";
-@import "./stages-page";
-@import "./team-page";
-@import "./book-page";
-@import "./faq-page";
+@import "../../global.css";
+@import "../../utils.css";
+@import "../../fonts.css";
+@import "../_header";
+@import "../_footer";
+@import "../_development";
+@import "../_industries-page";
+@import "../_projects-page";
+@import "../_discussing-page";
+@import "../_stages-page";
+@import "../_team-page";
+@import "../_book-page";
+@import "../_faq-page";
 
 body {
     background-color: #F2F4F7;
@@ -60,7 +60,7 @@ body {
 }
 
 .image-left {
-    background-image: url('../../img/img-itwebsite/column-left.webp');
+    background-image: url('../../../img/img-itwebsite/column-left.webp');
     animation: moveLeftColumn 15s infinite linear;
     background-position: 10px center;
 }
@@ -72,14 +72,14 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../../img/img-itwebsite/column-left.webp');
+    background-image: url('../../../img/img-itwebsite/column-left.webp');
     background-size: contain;
     background-position: 10px center;
     background-repeat: no-repeat;
 }
 
 .image-right {
-    background-image: url('../../img/img-itwebsite/column-right.webp');
+    background-image: url('../../../img/img-itwebsite/column-right.webp');
     animation: moveRightColumn 15s infinite linear;
     background-position: 400px center;
 }
@@ -91,7 +91,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../../img/img-itwebsite/column-right.webp');
+    background-image: url('../../../img/img-itwebsite/column-right.webp');
     background-size: contain;
     background-position: 400px center;
     background-repeat: no-repeat;
