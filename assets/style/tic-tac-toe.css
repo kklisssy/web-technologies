@@ -1,5 +1,5 @@
 body {
-    background-image: url('/assets/style/img/sky.jpg');
+    background-image: url('img/sky.jpg');
     color: rgb(255, 216, 124);
     font-family:'Courier New', Courier, monospace;
     font-weight: bold;
@@ -60,12 +60,12 @@ body {
 }
 
 .tic-tac-toe__ceil.sun-move {
-    background-image: url('../style/img/sun.png');
+    background-image: url('img/sun.png');
     background-size: 100% 100%;
 }
 
 .tic-tac-toe__ceil.moon-move {
-    background-image: url('../style/img/moon.png');
+    background-image: url('img/moon.png');
     background-size: 100% 100%;
 }
 
