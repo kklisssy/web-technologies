@@ -13,9 +13,9 @@ function init() {
         let currentMove
         
         if (isXTurn) {
-            currentMove = 'X'
+            currentMove = 'Солнце'
         } else {
-            currentMove = 'O'
+            currentMove = 'Луна'
         }
 
         moveEl.innerText = currentMove

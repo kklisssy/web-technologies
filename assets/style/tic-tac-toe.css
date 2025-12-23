@@ -1,3 +1,9 @@
+body {
+    background-image: url('/assets/style/img/sky.jpg');
+    color: rgb(255, 216, 124);
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
 /* Block Wrapper */
 .tic-tac-toe-wrapper {
     max-width: 532px;
@@ -10,6 +16,17 @@
     padding: 16px;
     font-size: 12px;
 }
+
+.tic-tac-toe-wrapper button {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(255, 216, 124);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
 
 @media (min-width: 576px) {
     .tic-tac-toe-wrapper {
@@ -36,9 +53,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: lightgray;
+    background: rgb(0, 0, 0);
     cursor: pointer;
     font-size: 4em;
+    
+}
+
+.tic-tac-toe__ceil.sun-move {
+    background-image: url('../style/img/sun.png');
+    background-size: 100% 100%;
+}
+
+.tic-tac-toe__ceil.moon-move {
+    background-image: url('../style/img/moon.png');
+    background-size: 100% 100%;
 }
 
 /* Current move */
