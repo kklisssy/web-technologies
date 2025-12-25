@@ -1,29 +1,34 @@
 function findPrefix(strs) {
     if (strs.length == 0) return "";
     
-    let shortestWord = strs[0];
-    for (let i = 1; i < strs.length; i++) {
-        if (strs[i].length < shortestWord.length) {
-            shortestWord = strs[i];
+    let shortest = strs[0];
+    for (let str of strs) {
+        if (str.length < shortest.length) {
+            shortest = str;
         }
     }
     
-    for (let i = shortestWord.length; i >= 2; i--) {
-        let prefix = shortestWord.substring(shortestWord.length - i);
-        let isCommon = true;
-        
-        for (let j = 0; j < strs.length; j++) {
-            if (!strs[j].endsWith(prefix)) {
-                isCommon = false;
-                break;
+    let longest = "";
+    
+    for (let i = 0; i < shortest.length; i++) {
+        for (let j = i + 2; j <= shortest.length; j++) {
+            let substring = shortest.substring(i, j);
+            let isCommon = true;
+            
+            for (let str of strs) {
+                if (!str.includes(substring)) {
+                    isCommon = false;
+                    break;
+                }
+            }
+            
+            if (isCommon && substring.length > longest.length ) {
+                longest = substring;
             }
         }
-        
-        if (isCommon) {
-            return prefix;
-        }
     }
-    return "";
+    
+    return longest;
 }
 
 strs = ["цветок","поток","хлопок"]
