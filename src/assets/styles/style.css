@@ -10,3 +10,16 @@
 .test {
     color: red !important;
 }
+
+.snakeHead {
+    background-color: rgb(20, 110, 29);
+}
+
+
+.snakeBody {
+    background-color: rgb(76, 131, 80);
+}
+
+.food {
+    background-color: rgb(163, 38, 38); 
+}
