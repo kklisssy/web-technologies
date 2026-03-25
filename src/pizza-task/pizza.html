@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Pizza</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pizza.css">
+</head>
+
+<body>
+    <div class="pizza-list">
+        <div class="pizza-card" data-type="pepperoni">
+            <img src="imgs/peperonni.png" alt="Пепперони">
+            <h3>Пепперони</h3>
+            <p>Пряные колбаски пепперони, cыр моцарелла, фирменный томатный соус, итальянские травы и специи.</p>
+            <button class="open">Выбрать</button>
+        </div>
+
+        <div class="pizza-card" data-type="margherita">
+            <img src="imgs/margarita.jpg" alt="Маргарита">
+            <h3>Маргарита</h3>
+            <p>Фирменный томатный соус, томаты, увеличенная порция моцареллы, итальянские травы и специи.</p>
+            <button class="open">Выбрать</button>
+        </div>
+
+        <div class="pizza-card" data-type="bavarian">
+            <img src="imgs/bavarian.jpg" alt="Баварская">
+            <h3>Баварская</h3>
+            <p>Классические колбаски, маринованные огурчики, лук красный, моцарелла, горчичный соус, томаты, фирменный томатный соус.</p>
+            <button class="open">Выбрать</button>
+        </div>
+    </div>
+
+    <div class="modal hidden" id="pizzaModal">
+        <div class="modal-overlay" id="modalOverlay"></div>
+
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">×</button>
+
+            <div class="modal-left">
+                <img id="modalPizzaImage" src="" alt="">
+            </div>
+
+            <div class="modal-right">
+                <h2 id="modalPizzaTitle"></h2>
+
+                <h3>Выберите размер</h3>
+                <div class="size-switcher">
+                    <button class="size-btn active" data-size="small">Маленькая</button>
+                    <button class="size-btn" data-size="large">Большая</button>
+                </div>
+
+                <h3>Добавить по вкусу</h3>
+                <div class="toppings-list">
+                    <div class="topping-card" data-topping="cheese side">
+                        <img src="imgs/cheese-side.png" alt="Сырный бортик">
+                        <p>Сырный бортик</p>
+                    </div>
+
+                    <div class="topping-card" data-topping="cheese mozzarella">
+                        <img src="imgs/mozzarella.png" alt="Сливочная моцарелла">
+                        <p>Сливочная моцарелла</p>
+                    </div>
+
+                    <div class="topping-card" data-topping="cheddar and parmesan">
+                        <img src="imgs/cheese-types.png" alt="Чеддер и пармезан">
+                        <p>Чеддер и пармезан</p>
+                    </div>
+                </div>
+
+                <button class="cart" id="cart">
+                    В корзину за <span id="price">0</span> ₽ (<span id="calories">0</span> Ккал)
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="pizza.js"></script>
+    <script src="pizza-app.js"></script>
+</body>
+
+</html>

@@ -93,19 +93,20 @@ class Pizza {
     }
 }
 
-const myPizza = new Pizza('margherita', 'large');
-console.log('Размер:', myPizza.getSize());
-console.log('Вид пиццы:', myPizza.getType());
+// Проверка
+// const myPizza = new Pizza('pepperoni', 'large');
+// console.log('Размер:', myPizza.getSize());
+// console.log('Вид пиццы:', myPizza.getType());
 
-myPizza.addTopping('cheese side');
-console.log('Добавки:', myPizza.getToppings());
+// myPizza.addTopping('cheese side');
+// console.log('Добавки:', myPizza.getToppings());
 
-console.log('Цена:', myPizza.calculatePrice());
-console.log('Калории:', myPizza.calculateCalories());
+// console.log('Цена:', myPizza.calculatePrice());
+// console.log('Калории:', myPizza.calculateCalories());
 
-myPizza.removeTopping('cheese side');
-console.log('Добавки после удаления:', myPizza.getToppings());
-console.log('Новая цена:', myPizza.calculatePrice());
-console.log('Новые калории:', myPizza.calculateCalories());
+// myPizza.removeTopping('cheese side');
+// console.log('Добавки после удаления:', myPizza.getToppings());
+// console.log('Новая цена:', myPizza.calculatePrice());
+// console.log('Новые калории:', myPizza.calculateCalories());
 
 

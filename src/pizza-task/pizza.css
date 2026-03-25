@@ -1,0 +1,172 @@
+body {
+    background: white;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+.pizza-list {
+    max-width: 1200px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.pizza-card{
+    width: 292px;
+    padding: 20px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pizza-card h3 {
+    margin: 10px 0 0 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pizza-card p {
+    margin: 0;
+    font-size: 15px;
+    color: #c1c1c1;
+    padding: 15px 0;
+}
+
+.open {
+    margin-top: auto;
+    align-self: flex-start;
+    border: none;
+    background: #e57321;
+    color: rgb(255, 255, 255);
+    border-radius: 22px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.modal {
+    position: fixed;
+    inset: 0;
+    z-index: 3;
+}
+
+.modal-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+}
+
+.modal-content {
+    position: relative;
+    z-index: 1;
+    width: 1100px;
+    min-height: 650px;
+    margin: 30px auto;
+    background: white;
+    border-radius: 28px;
+    display: grid;
+    grid-template-columns: 1.4fr 1.2fr;
+    overflow: hidden;
+}
+
+.modal-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 42px;
+    height: 42px;
+    border: none;
+    border-radius: 50%;
+    font-size: 28px;
+    cursor: pointer;
+    background: #f1f1f1;
+}
+
+.modal-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.modal-left img {
+    width: 80%;
+    max-width: 500px;
+    object-fit: contain;
+}
+
+.modal-right {
+    display: flex;
+    flex-direction: column;
+    background: #fafafa;
+    padding: 20px;
+}
+
+.modal-right h2 {
+    margin: 30px 0 0 0;
+}
+
+.size-switcher {
+    display: flex;
+    background: #f0f0f0;
+    border-radius: 30px;
+    padding: 4px;
+}
+
+.size-btn {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    border-radius: 24px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.size-btn.active {
+    background: white;
+}
+
+.toppings-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.topping-card {
+    width: 120px;
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    box-shadow: 0 0 15px rgba(174, 174, 174, 0.3);
+     border: 1px solid transparent;
+}
+
+.topping-card.active {
+    border: 1px solid #e57321;
+}
+
+.topping-card img {
+    height: 100px;
+    object-fit: contain;
+}
+
+.cart {
+    position: absolute;
+    top: 590px;
+    right: 140px;
+    width: 232px;
+    border: none;
+    background: #e57321;
+    color: rgb(255, 255, 255);
+    border-radius: 22px;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
